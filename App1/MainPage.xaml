@@ -8,6 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Click="output_Click"/>
+        <TextBlock x:Name="output" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="0,100,0,0">
+        	<Run Text=""/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
 
     </Grid>
 </Page>
